@@ -1,0 +1,2 @@
+result=$(( $1*($2+$3) ))
+echo "project-$result/src/index.js project-$result/src/util.js project-$result/dest/index.js project-$result/dest/util.js project-$result/test/index.js project-$result/test/util.js"
